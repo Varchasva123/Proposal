@@ -120,8 +120,9 @@
         <script>
             const text = "OBVI!";
             const text2="No...";
-            const b=document.querySelector("#h23")
-            const a=document.querySelector("#b2")
+            const b=document.querySelector("#h23");
+            const a=document.querySelector("#b2");
+            const c=document.querySelector('#b1');
             a.classList.add("big")
             a.addEventListener("mouseenter", () => {
                 b.textContent=text;
@@ -129,8 +130,15 @@
             a.addEventListener("mouseleave", () => {
                 b.textContent=text2;
             });
+            a.addEventListener("click", () => {
+                window.location.href="https://varchasva123.github.io/Mhmm/";
+            }                  
+            c.addEventListener("click", () => {
+                window.location.href="https://varchasva123.github.io/Mhmm/";
+            }
         </script>
     </body>
 
 </html>
+
 
